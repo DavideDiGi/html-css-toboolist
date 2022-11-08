@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 header{
     margin: 20px 0 10px 20px;
@@ -11,6 +12,7 @@ header{
     background-color: rgb(247,248,249);
     width: 100%;
     height: 50vh;
+    padding-top: 40px;
 
     
 }
@@ -20,43 +22,17 @@ header img{
 header h1{
     display: inline-block;
     vertical-align:middle;
-    font-family: 'Roboto', sans-serif;
 }
-
-nav{
+.white{
     background-color: white;
-    margin: auto;
-    padding-top: 30px;
+    padding: 10px 50px;
     width: 80%;
-   
-}
-
-/* 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-header{
-    margin: 20px 0 10px 20px;
-    width: 100%;
-}
-.container{
-    back
-    width: 100%;
-    
-}
-header img{
-    vertical-align:middle;
-}
-header h1{
-    display: inline-block;
-    vertical-align:middle;
-    font-family: 'Roboto', sans-serif;
-}
-.first{
-    background-color: rgb(247,248,249);
+    border-radius: 5px;
 }
 nav{
-    background-color: red;
-} */
+    margin: auto;
+}
+main{
+    margin-left: 10%;
+    margin-top: 2px;
+}
