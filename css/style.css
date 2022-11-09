@@ -53,7 +53,7 @@ h2{
     margin-top: 25px;
 }
 h2::before{
-    content: '\25BC';
+    content: '\25BC';  /* \1F893 non funziona (Safari) */
 }
 .tasks{
     font-weight: normal;
@@ -85,20 +85,21 @@ h2::before{
     background-color: rgb(99,170,235);
     border-radius: 20px;
     padding: 5px 10px;
-   
+    font-size: 10px;
+    
 }
 .purple{
-   background-color: purple;
+   background-color: rgb(149,116,221);
 }
 .green{
-    background-color: green;
+    background-color: rgb(123,190,169);
 }
 .orange{
-    background-color: orange;
+    background-color: rgb(230,161,75);
 }
 .fuchsia{
-    background-color: fuchsia;
+    background-color: rgb(202,106,158);
 }
 .greenyellow{
-    background-color: greenyellow;
+    background-color: rgb(181,200,73);
 }
